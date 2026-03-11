@@ -1,6 +1,6 @@
 from google import genai
 
-API_KEY = ""
+API_KEY = ''
 
 def find_hook(transcript_text):
     client = genai.Client(api_key=API_KEY)
